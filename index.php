@@ -1,8 +1,7 @@
 <?php
 echo '<h3>this is a test of the google app engine getDefaultGoogleStorageBucketName</h3>';
 
-use google\appengine\api\cloud_storage\CloudStorageTools;
-$bucket = CloudStorageTools::getDefaultGoogleStorageBucketName();
+$bucket = 'this_wont_work';
 
 echo '<p>The bucket is '.$bucket.'</p>';
 
